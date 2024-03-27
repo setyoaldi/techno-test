@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { LayoutMenu } from "../components/Layout";
 import { CardMenu } from "../components/Card";
 import logoreact from "../assets/react.svg";
@@ -16,15 +16,7 @@ export const Menu = () => {
       header.classList.remove("scrolled");
     }
   });
-  const 
-  useEffect(() => {
-    first
-  
-    return () => {
-      second
-    }
-  }, [third])
-  
+
   return (
     <>
       <LayoutMenu>
