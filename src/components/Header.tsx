@@ -9,3 +9,14 @@ export const Header = () => {
     </nav>
   );
 };
+export const HeaderMenu = () => {
+  return (
+    <nav>
+      <div className="mx-auto flex justify-center items-center">
+        <p className="uppercase text-3xl font-bold leading-tight text-black">
+          MENU
+        </p>
+      </div>
+    </nav>
+  );
+};

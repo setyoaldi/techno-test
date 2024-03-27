@@ -15,3 +15,9 @@ export interface CardUserTypes {
     point: number
     qrcode: string
 }
+export interface CardMenuTypes {
+    pict: string
+    name: string
+    desc: string
+    price: string
+}
