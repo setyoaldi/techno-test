@@ -1,4 +1,3 @@
-import { ChangeEvent } from "react";
 
 export type LayoutTypes = {
     title: string;
@@ -7,4 +6,12 @@ export type LayoutTypes = {
 export interface InputTypes {
     text: string;
     type: string;
+}
+export interface CardUserTypes {
+    status: string
+    greeting: string
+    name: string
+    saldo: number
+    point: number
+    qrcode: string
 }

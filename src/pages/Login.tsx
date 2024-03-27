@@ -1,17 +1,8 @@
 import { LayoutLogin } from "../components/Layout";
 import Logo from "../assets/logo technopartner.png";
 import { TextInput } from "../components/Input";
-import { ChangeEvent, useState } from "react";
 
 export const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
-  };
-  const handlePasswordChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setPassword(event.target.value);
-  };
   return (
     <>
       <LayoutLogin title={"Login"}>
