@@ -20,4 +20,12 @@ export const Api = {
             password,
         },
     }),
+    getUser: (token?: string, token_type?: string) => instance({
+        method: "GET",
+        url: "/api/home",
+        data: {
+            Authorization: `Bearer ${token}`,
+            token_type
+        }
+    })
 }
