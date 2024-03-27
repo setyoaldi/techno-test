@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { LayoutMenu } from "../components/Layout";
 import { CardMenu } from "../components/Card";
 import logoreact from "../assets/react.svg";
@@ -18,7 +18,7 @@ export const Menu = () => {
   });
   return (
     <>
-      <LayoutMenu title="Menu">
+      <LayoutMenu>
         <div className="flex flex-col" id="menu">
           <div className="flex flex-row justify-around mt-5 px-5 sticky top-0 z-50 bg-white">
             <a

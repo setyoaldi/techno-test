@@ -1,11 +1,12 @@
 
 export type LayoutTypes = {
-    title: string;
     children: React.ReactNode;
 };
 export interface InputTypes {
     text: string;
     type: string;
+    value: string;
+    onChange: React.ChangeEventHandler<HTMLInputElement>;
 }
 export interface CardUserTypes {
     status: string

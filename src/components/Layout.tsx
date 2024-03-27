@@ -8,10 +8,6 @@ import { Footer } from "./Footer";
 export const LayoutLogin: FC<LayoutTypes> = (props) => {
   return (
     <>
-      <head>
-        <title>{props.title}</title>
-        <link rel="icon" href={Logo} />
-      </head>
       <main className="flex justify-center bg-white">
         <div className="layout-container min-w-full bg-white md:min-w-[480px] md:max-w-[480px]">
           <div className="h-full w-full overflow-auto">{props.children}</div>
@@ -24,10 +20,6 @@ export const LayoutLogin: FC<LayoutTypes> = (props) => {
 export const LayoutHome: FC<LayoutTypes> = (props) => {
   return (
     <>
-      <head>
-        <title>{props.title}</title>
-        <link rel="icon" href={Logo} />
-      </head>
       <main className="flex justify-center bg-black">
         <div className="layout-container min-w-full bg-white md:min-w-[480px] md:max-w-[480px]">
           <Header />
@@ -41,10 +33,6 @@ export const LayoutHome: FC<LayoutTypes> = (props) => {
 export const LayoutMenu: FC<LayoutTypes> = (props) => {
   return (
     <>
-      <head>
-        <title>{props.title}</title>
-        <link rel="icon" href={Logo} />
-      </head>
       <main className="flex justify-center bg-black">
         <div className="layout-container min-w-full bg-white md:min-w-[480px] md:max-w-[480px]">
           <HeaderMenu />

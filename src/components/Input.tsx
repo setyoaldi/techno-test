@@ -9,6 +9,7 @@ export const TextInput: FC<InputTypes> = (props) => {
         <input
           type={props.type}
           className="w-1/2 h-12 p-3 rounded-lg bg-white shadow-lg text-black outline-none"
+          value={props.value}
         />
       </div>
     </>

@@ -27,7 +27,7 @@ export const Home = () => {
   };
   return (
     <>
-      <LayoutHome title={"Home"}>
+      <LayoutHome>
         <div
           className="flex flex-col justify-center items-center py-5"
           style={{

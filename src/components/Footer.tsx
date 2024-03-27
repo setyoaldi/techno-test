@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import Home1 from "../assets/home1.png";
 import Home2 from "../assets/home2.png";
 import Menu1 from "../assets/menu1.png";
